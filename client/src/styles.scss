@@ -64,7 +64,11 @@ form {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
+  margin: 20px auto;
 
+  h1 {
+    margin: 10px auto;
+  }
   legend {
     padding-left: 40px;
     font-weight: bold;
@@ -80,7 +84,15 @@ form {
   }
 
   input {
-    width: 100px;
+    width: 120px;
+    margin: 5px auto;
+    padding: 5px;
+  }
+
+  button {
+    margin: 10px auto;
+    width: 130px;
+
   }
 }
 
