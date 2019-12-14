@@ -32,9 +32,10 @@ const Login = (props) => {
 
   return (
     <>
-      <h1>Welcome to the Bubble App!</h1>
+      {/* <h1>Welcome to the Bubble App!</h1> */}
       {/* <p>Build a login page here</p> */}
       <form onSubmit={handleSubmit}>
+      <h1>Welcome to the Bubble App!</h1>
         <input 
           type="text"
           name="username"
